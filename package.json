@@ -1,0 +1,32 @@
+{
+  "name": "miranda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "dev": "node --env-file=.env --watch index.js",
+    "start": "node --env-file=.env index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "itrm-tools": "^1.0.52",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.2",
+    "swagger-jsdoc": "^6.2.8"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0",
+    "swagger-ui-express": "^5.0.0",
+    "vitest": "^1.5.1"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
